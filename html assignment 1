@@ -1,0 +1,40 @@
+//html//
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register-form</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="Form">
+    <form action="">
+        <p>Sign up</p>
+        First name <input type="text">
+        Last name <input type="text"><br><br>
+        Email <input type="email"><br>
+        we'll never share your email with anyone else. <br>
+        <input type="radio" id="male" name="fav_language" value="HTML">
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="fav_language" value="CSS">
+        <label for="female">Female</label><br>
+
+        City <input type="text">
+        Country<select name="" id="">
+            <option value="">United States</option>
+            <option value="">Philiphenes</option>
+            <option value="">Australlia</option>
+            <option value="">India</option>
+        </select><br> <br>
+        Create Password <input type="password">
+        Repeat Password <input type="password"><br>
+        <button>Register</button><br>
+        <input type="checkbox">I agree to terms and conditions <br>
+        Have an Acoount?<a href="" >Login</a>
+    </form>
+</div>
+    
+</body>
+</html>
